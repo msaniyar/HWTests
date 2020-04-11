@@ -16,7 +16,7 @@ public class Tests extends  Base {
 
     @Test
     @Order(1)
-    public void ThirdPensionTestOne() throws InterruptedException {
+    public void ThirdPillarTestOne() throws InterruptedException {
 
         //Process
         Click(elements.pensions);
@@ -33,7 +33,7 @@ public class Tests extends  Base {
 
     @Test
     @Order(2)
-    public void ThirdPensionTestTwo() throws InterruptedException {
+    public void ThirdPillarTestTwo() throws InterruptedException {
 
         //Process
         Click(elements.pensions);

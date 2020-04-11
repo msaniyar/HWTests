@@ -21,7 +21,7 @@ public class Base {
     @BeforeAll
     public void Setup() {
 
-        System.setProperty("webdriver.chrome.driver", "driver\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "driver/chromedriver.exe");
 
         driver = new ChromeDriver();
         wait = new WebDriverWait(driver,30);
@@ -30,7 +30,7 @@ public class Base {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.manage().window().maximize();
 
-        var cookieCheck = By.cssSelector(".ui-cookieprompt__accept");
+        By cookieCheck = By.cssSelector(".ui-cookieprompt__accept");
         if (!driver.findElements(cookieCheck).isEmpty())
             driver.findElement(cookieCheck).click();
 
@@ -47,7 +47,7 @@ public class Base {
     }
 
     protected String SelectedValue(By by) {
-       var select = new Select(driver.findElement(by));
+       Select select = new Select(driver.findElement(by));
        return select.getFirstSelectedOption().getText();
     }
 }
