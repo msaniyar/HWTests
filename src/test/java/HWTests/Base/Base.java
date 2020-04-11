@@ -41,6 +41,7 @@ public class Base {
 
     protected void Click(By by) throws InterruptedException {
         wait.until(ExpectedConditions.elementToBeClickable(by));
+        Thread.sleep(500);
         driver.findElement(by).click();
     }
 
