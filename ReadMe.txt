@@ -1,8 +1,9 @@
 --Run Tests--
-Get this git repository to your local machine.
+Clone this git repository to your local machine.
 
 To run tests, please go following directory inside Eclipse or IntelliJ src/test/java/HWTests/Tests
-Right Click and Run Tests
+IntelliJ: Right Click to Tests.java then click to Run Tests
+Eclipse: Right Click to Tests.java then click to Run As -> JUnit Test
 
 
 --Tool and Framework Versions--
