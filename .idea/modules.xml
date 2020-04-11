@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SwedBankHWTests.iml" filepath="$PROJECT_DIR$/SwedBankHWTests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HWTests.iml" filepath="$PROJECT_DIR$/HWTests.iml" />
     </modules>
   </component>
 </project>
