@@ -27,8 +27,8 @@ public class Tests extends Base {
         Click(elements.startSaving);
 
         //Check
-        assertNotEquals(driver.findElements(elements.loginPage),0);
-        assertNotEquals(driver.findElements(elements.loginTitle),0);
+        assertNotEquals(driver.findElements(elements.loginPage).size(),0);
+        assertNotEquals(driver.findElements(elements.loginTitle).size(),0);
 
     }
 
